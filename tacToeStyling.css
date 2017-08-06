@@ -1,0 +1,49 @@
+h1{
+  font-size: 35px;
+  color:red;
+  display: flex;
+  justify-content: center;
+  border: 3px solid black;
+  padding:10px;
+}
+table{
+  border: 5px solid black;
+  margin: auto;
+  justify-content: center;
+}
+td{
+  border: 5px solid black;
+  width:90px;
+  height:90px;
+  text-align: center;
+  font-size: 45px;
+}
+p{
+  font-size: 20px;
+  margin-left: 44%;
+  font-weight: bold;
+}
+button{
+  margin-top: 10px;
+  margin-left: 47.6%;
+  width:60px;
+  height:40px;
+}
+.win{
+  margin-left: 44%;
+  font-size: 45px;
+  color:#888;
+}
+.connectFour{
+  border:5px solid black;
+  position: relative;
+  left:220px;
+}
+.columnPicker{
+  position:relative;
+  left:220px;
+}
+.columnPicker td{
+  text-align: center;
+  font-size: 30px;
+}
