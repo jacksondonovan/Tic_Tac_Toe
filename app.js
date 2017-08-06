@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const path = require('path')
 const bodyParser = require('body-parser')
-const port = 3000 || process.env.PORT;
+const port = process.env.PORT || 3000;
 
 app.set('view engine', 'html')
 app.use(express.static(path.join(__dirname, 'public')));
